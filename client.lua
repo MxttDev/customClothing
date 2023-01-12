@@ -59,7 +59,7 @@ local selBodyArmorIndex = GetPedDrawableVariation(PlayerPedId(), FiveMBodyArmorI
 function createMenu()
     WarMenu.CreateMenu('cloth', 'SUBURBAN', 'Store')
 
-    WarMenu.SetMenuTitleBackgroundColor('cloth', 0, 0, 0, 200)
+    WarMenu.SetMenuTitleBackgroundColor('cloth', 365, 105, 22, 200)
     WarMenu.SetMenuTitleColor('cloth', 240, 240, 240, 1000)
     WarMenu.SetMenuBackgroundColor('cloth', 0, 0, 0, 150)
 
